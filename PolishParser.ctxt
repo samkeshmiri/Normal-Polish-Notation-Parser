@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PolishParser
+comment0.text=\r\n\ This\ calculator\ computes\ expressions\ using\ normal\ polish\ notation\ (NPN).\r\n\ i.e.\ to\ calculate\ 3\ +\ 4,\ it\ must\ be\ written\ +\ 3\ 4.\ \r\n\r\n\ @author\ (Sam\ Keshmiri)\r\n\ @version\ (19.12.2018)\r\n\ \r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Calculate\ NPN\ expression\ in\ args\r\n
+comment2.params=output\ index\ args
+comment2.target=java.lang.String\ buildArgs(java.lang.String,\ int,\ java.lang.String[])
+comment2.text=\r\n\ Recursively\ joins\ an\ array\ with\ whitespace\r\n
+comment3.params=operator\ leftOperand\ rightOperand
+comment3.target=int\ calculate(char,\ int,\ int)
+comment3.text=\r\n\ Performs\ evaluation\ of\ given\ expression\ on\ digits\ in\ thenumbers\ list\r\n
+comment4.params=args
+comment4.target=int\ compute(java.lang.String[])
+comment4.text=\r\n\ Takes\ the\ expression\ as\ parameter\ and\ passes\ them\ into\ their\ respective\ lists\ to\ be\ calculate\ \ *\ Removes\ an\ operator,\ the\ first\ number\ in\ the\ stack\ (left\ operand)\ and\ then\ the\ next\ (right\ operand\ *\ Total\ is\ kept\ when\ performing\ multiple\ operations.\r\n
+numComments=5
