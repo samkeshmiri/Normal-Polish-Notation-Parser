@@ -3,7 +3,7 @@
  * i.e. to calculate 3 + 4, it must be written + 3 4.
  *
  * @author (Sam Keshmiri)
- * @version (15.01.2018)
+ * @version (04.02.2018)
  */
 import java.util.*;
 public class polishParser {
